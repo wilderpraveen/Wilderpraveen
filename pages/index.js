@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
-          Website in Development phase!\ "coming shoon."
+          Website in Development phase!\n "coming shoon."
         </p>
       </main>
 
