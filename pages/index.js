@@ -3,12 +3,13 @@ import Header from '@components/Header'
 import Footer from '@components/Footers/Footer'
 
 import IndexNavbar from "components/Navbar/IndexNavbar.js";
-//mport Footer from "components/Footers/Footer.js";
+
 
 export default function Home() {
   return (
     <>
       <IndexNavbar fixed />
+      <IndexNavbar tab_list />
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
@@ -35,14 +36,7 @@ export default function Home() {
         <link rel="icon" href="/Brand/bth_logo.ico" />
       </Head>
 
-      <main>
-        <Header title="Welcome to Wilder Praveen!" />
-        <p className="description">
-          Website in Development phase! 
-          "coming shoon stay tuned"
-        </p>
-      </main>
-
+    
       <Footer />
     </div>
  </>
