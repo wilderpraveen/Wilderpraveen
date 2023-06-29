@@ -3,13 +3,17 @@ import Header from '@components/Header'
 import Footer from '@components/Footers/Footer'
 
 import IndexNavbar from "components/Navbar/IndexNavbar.js";
+import ManuNavbar from "components/Navbar/menu_navbar.js";
+import Slider from "components/slidershow";
 
 
 export default function Home() {
   return (
     <>
       <IndexNavbar fixed />
-      <IndexNavbar tab_list />
+      <ManuNavbar tab_list />      
+      <Slider slideshow />
+
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
@@ -25,12 +29,12 @@ export default function Home() {
           </div>
         </div>
         <img
-          className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-1440-px"
-          src="/img/img2.jpg"
+          className="absolute top-auto b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-700-px"
+          src="/img/img-2.jpg"
           alt="..."
         />
       </section>
-    <div className="container">
+      <div className="container">
       <Head>
         <title>Wilder Praveen!</title>
         <link rel="icon" href="/Brand/bth_logo.ico" />
@@ -38,7 +42,7 @@ export default function Home() {
 
     
       <Footer />
-    </div>
- </>
+      </div>
+    </>
   )
 }

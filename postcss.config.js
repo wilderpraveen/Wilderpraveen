@@ -1,6 +1,8 @@
-module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
+const autoprefixer = require("autoprefixer");
+
+module.exports = { 
+  plugins: [
+   
+
+  ] 
 }

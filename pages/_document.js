@@ -8,11 +8,11 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
-          <link rel="shortcut icon" href="/img/brand/bth_16px.ico" />
+          <link rel="shortcut icon" href="/Brand/bth_logo.ico" />
           <link
             rel="apple-touch-icon"
             sizes="76x76"
-            href="/img/brand/bth.png"
+            href="/Brand/Bikethehills.svg"
           />
         </Head>
         <body className="text-blueGray-700 antialiased">
